@@ -1,0 +1,12 @@
+
+
+
+PS C:\> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+
+ Import-Module azure
+ 
+Get-AzurePublishSettingsFile
+
+
+ Import-AzurePublishSettingsFile -PublishSettingsFile
